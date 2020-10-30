@@ -1,20 +1,20 @@
 /*
  Copyright (c) 2013 yvt
 
- This file is part of OpenSpades.
+ This file is part of FreeSpades.
 
- OpenSpades is free software: you can redistribute it and/or modify
+ FreeSpades is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
 
- OpenSpades is distributed in the hope that it will be useful,
+ FreeSpades is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
 
  You should have received a copy of the GNU General Public License
- along with OpenSpades.  If not, see <http://www.gnu.org/licenses/>.
+ along with FreeSpades.  If not, see <http://www.gnu.org/licenses/>.
 
  */
 
@@ -53,13 +53,13 @@ namespace spades {
 			if (!err.empty()) {
 
 				std::string msg = err;
-				msg = _Tr("Main", "A serious error caused OpenSpades to stop "
+				msg = _Tr("Main", "A serious error caused FreeSpades to stop "
 				                  "working:\n\n{0}\n\nSee SystemMessages.log for more details.",
 				          msg);
 
 				SDL_InitSubSystem(SDL_INIT_VIDEO);
 				if (SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR,
-				                             _Tr("Main", "OpenSpades Fatal Error").c_str(),
+				                             _Tr("Main", "FreeSpades Fatal Error").c_str(),
 				                             msg.c_str(), nullptr)) {
 					// showing dialog failed.
 					// TODO: do appropriate action

@@ -4,7 +4,7 @@
 # this script performs a destructive operation - use carefully!
 
 function remap() {
-    if [ -f "Resources/Locales/$1/openspades.po" ]; then
+    if [ -f "Resources/Locales/$1/freespades.po" ]; then
         echo "Relocating Resources/Locales/$1 to Resources/Locales/$2"
 
         # work-around for case-insensitive file systems (e.g., HFS+, NTFS)

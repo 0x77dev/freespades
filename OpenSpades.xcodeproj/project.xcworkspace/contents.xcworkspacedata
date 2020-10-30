@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:OpenSpades.xcodeproj">
+      location = "self:FreeSpades.xcodeproj">
    </FileRef>
 </Workspace>

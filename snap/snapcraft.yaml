@@ -1,8 +1,9 @@
-name: openspades
+name: freespades
 version: 'master'
 summary: Sandbox building and FPS videogame
 description: |
-  OpenSpades is a compatible client of Ace of Spades 0.75.
+  FreeSpades is a compatible client of Ace of Spades 0.75.
+  Fork of OpenSpades.
   Can connect to a vanilla/pyspades/pysnip server.
   Uses OpenGL/AL for better experience.
   Open source, and cross platform.
@@ -11,7 +12,7 @@ grade: stable
 confinement: strict
 
 apps:
-  openspades:
+  freespades:
     command: launch_openspades
     plugs:
       - network
@@ -26,7 +27,7 @@ parts:
     source: snap/scripts
     organize:
       'launch_openspades': bin/
-  openspades:
+  freespades:
     plugin: cmake
     configflags: [-DCMAKE_BUILD_TYPE=RelWithDebInfo]
     source: .

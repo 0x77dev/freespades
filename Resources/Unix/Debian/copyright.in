@@ -1,7 +1,7 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: OpenSpades
+Upstream-Name: FreeSpades
 Upstream-Contact: yvt <i@yvt.jp>
-Source: https://github.com/yvt/openspades
+Source: https://github.com/0x77dev/freespades
 
 Files: *
 Copyright: Copyright 2013-${CMAKE_CURRENT_YEAR} yvt <i@yvt.jp>

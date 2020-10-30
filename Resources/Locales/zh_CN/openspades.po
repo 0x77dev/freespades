@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: openspades\n"
+"Project-Id-Version: freespades\n"
 "Report-Msgid-Bugs-To: i at yvt.jp\n"
 "POT-Creation-Date: 2016-12-25 23:47-0200\n"
 "PO-Revision-Date: 2020-04-19 14:46\n"
@@ -12,9 +12,9 @@ msgstr ""
 "X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: openspades\n"
+"X-Crowdin-Project: freespades\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: openspades.pot\n"
+"X-Crowdin-File: freespades.pot\n"
 "Language: zh_CN\n"
 
 #: Sources/Client/Client.cpp:585 Sources/Client/Client.cpp:586
@@ -404,7 +404,7 @@ msgstr "已加载本地系统"
 #: Sources/Gui/Main.cpp:604 Sources/Gui/Runner.cpp:56 Sources/Gui/Main.cpp:633
 #: Sources/Gui/Runner.cpp:56
 msgctxt "Main"
-msgid "A serious error caused OpenSpades to stop working:\n\n"
+msgid "A serious error caused FreeSpades to stop working:\n\n"
 "{0}\n\n"
 "See SystemMessages.log for more details."
 msgstr "一个战中的错误导致OpenSpades停止工作:\n\n"
@@ -414,8 +414,8 @@ msgstr "一个战中的错误导致OpenSpades停止工作:\n\n"
 #: Sources/Gui/Main.cpp:612 Sources/Gui/Runner.cpp:62 Sources/Gui/Main.cpp:641
 #: Sources/Gui/Runner.cpp:62
 msgctxt "Main"
-msgid "OpenSpades Fatal Error"
-msgstr "OpenSpades 严重错误"
+msgid "FreeSpades Fatal Error"
+msgstr "FreeSpades 严重错误"
 
 #: Sources/Gui/MainScreen.cpp:225 Sources/Gui/MainScreen.cpp:220
 msgctxt "MainScreen"
@@ -497,8 +497,8 @@ msgstr "稍后决定"
 #: Resources/Scripts/Gui/CreateProfileScreen.as:80
 #: Resources/Scripts/Gui/CreateProfileScreen.as:80
 msgctxt "CreateProfileScreen"
-msgid "Welcome to OpenSpades"
-msgstr "Welcome to OpenSpades"
+msgid "Welcome to FreeSpades"
+msgstr "Welcome to FreeSpades"
 
 #: Resources/Scripts/Gui/CreateProfileScreen.as:88
 #: Resources/Scripts/Gui/CreateProfileScreen.as:88
@@ -1127,7 +1127,7 @@ msgstr "窗口启动"
 #: Resources/Scripts/Gui/Preferences.as:757
 #: Resources/Scripts/Gui/Preferences.as:757
 msgctxt "Preferences"
-msgid "Quit and restart OpenSpades to access the startup window."
+msgid "Quit and restart FreeSpades to access the startup window."
 msgstr "退出并重新启动OpenSpades以进入启动窗口."
 
 #: Resources/Scripts/Gui/Preferences.as:758
@@ -1219,7 +1219,7 @@ msgstr "全屏模式"
 #: Resources/Scripts/Gui/StartupScreen.as:1103
 #: Resources/Scripts/Gui/StartupScreen.as:1103
 msgctxt "StartupScreen"
-msgid "By running in fullscreen mode OpenSpades occupies the screen, making it easier for you to concentrate on playing the game."
+msgid "By running in fullscreen mode FreeSpades occupies the screen, making it easier for you to concentrate on playing the game."
 msgstr "在全屏模式下运行，使您更容易专注于游戏。"
 
 #: Resources/Scripts/Gui/StartupScreen.as:1110
@@ -1555,7 +1555,7 @@ msgstr "YSR"
 #: Resources/Scripts/Gui/StartupScreen.as:1512
 #: Resources/Scripts/Gui/StartupScreen.as:1512
 msgctxt "StartupScreen"
-msgid "YSR is an experimental 3D HDR sound engine optimized for OpenSpades. It features several enhanced features including automatic load control, dynamics compressor, HRTF-based 3D audio, and high quality reverb."
+msgid "YSR is an experimental 3D HDR sound engine optimized for FreeSpades. It features several enhanced features including automatic load control, dynamics compressor, HRTF-based 3D audio, and high quality reverb."
 msgstr "YSR是针对OpenSpades优化的实验性3D HDR声音引擎。它具有自动负载控制，动态压缩器，基于HRTF的立体声音效和高品质的混响效果器。"
 
 #. ! The name of audio driver that outputs no audio.
@@ -1728,7 +1728,7 @@ msgstr "可用版本{0}! (当前版本 {1})"
 #: Resources/Scripts/Gui/UpdateCheckView.as:105
 #: Resources/Scripts/Gui/UpdateCheckView.as:105
 msgctxt "UpdateCheck"
-msgid "You're using the latest version of OpenSpades. ({0})"
+msgid "You're using the latest version of FreeSpades. ({0})"
 msgstr "此OpenSpades是最新版本。({0})"
 
 #: Resources/Scripts/Gui/UpdateCheckView.as:110

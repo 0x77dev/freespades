@@ -1,0 +1,23 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install deps
+      run:  sudo apt-get install pkg-config libglew-dev libcurl3-openssl-dev libjpeg-dev libxinerama-dev libxft-dev libsdl2-dev libsdl2-image-dev libfreetype6-dev libopus-dev libopusfile-dev gcc
+
+    - name: CMake
+      run: mkdir freespades.mk && cd freespades.mk && cmake -DOPENSPADES_RESOURCES=off .. && make -j$(nproc)
+
+    - name: make check
+      run: make check
+

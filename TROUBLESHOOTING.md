@@ -2,7 +2,7 @@
 
 ## Check to see if the issue has been reported
 
-***Before* creating an issue, make sure you've searched on the [Issue Tracker](https://github.com/yvt/openspades/issues?utf8=%E2%9C%93&q=is%3Aissue%20) to see if someone else has already reported the same issue**. Use relevant keywords.
+***Before* creating an issue, make sure you've searched on the [Issue Tracker](https://github.com/0x77dev/freespades/issues?utf8=%E2%9C%93&q=is%3Aissue%20) to see if someone else has already reported the same issue**. Use relevant keywords.
 
 
 ## Common Issues
@@ -19,4 +19,4 @@ If your problem hasn't been solved or reported, then create an issue detailing y
 
 ---
 
-### For more information about OpenSpades, check out the **[Wiki](https://github.com/yvt/openspades/wiki)**.
+### For more information about FreeSpades, check out the **[Wiki](https://github.com/0x77dev/freespades/wiki)**.

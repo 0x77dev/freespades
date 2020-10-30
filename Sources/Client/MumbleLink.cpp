@@ -113,8 +113,8 @@ namespace spades {
 			return;
 
 		if (mumbleLinkedMemory->uiVersion != 2) {
-			wcsncpy(mumbleLinkedMemory->name, L"OpenSpades", 256);
-			wcsncpy(mumbleLinkedMemory->description, L"OpenSpades Link plugin.", 2048);
+			wcsncpy(mumbleLinkedMemory->name, L"FreeSpades", 256);
+			wcsncpy(mumbleLinkedMemory->description, L"FreeSpades Link plugin.", 2048);
 			mumbleLinkedMemory->uiVersion = 2;
 		}
 		mumbleLinkedMemory->uiTick++;

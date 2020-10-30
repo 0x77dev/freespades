@@ -1,7 +1,7 @@
 #
 # Your crowdin's credentials
 #
-"project_identifier" : "openspades"
+"project_identifier" : "freespades"
 "api_key" : ""
 "base_path" : ""
 #"base_url" : ""
@@ -21,13 +21,13 @@ files: [
   # Source files filter
   # e.g. "/resources/en/*.json"
   #
-  "source" : "/Resources/Locales/pot/openspades.pot",
+  "source" : "/Resources/Locales/pot/freespades.pot",
 
   #
   # where translations live
   # e.g. "/resources/%two_letters_code%/%original_file_name%"
   #
-  "translation" : "/Resources/Locales/%locale_with_underscore%/openspades.po",
+  "translation" : "/Resources/Locales/%locale_with_underscore%/freespades.po",
 
   #
   # files or directories for ignore
@@ -39,7 +39,7 @@ files: [
   # The dest allows you to specify a file name on Crowdin
   # e.g. "/messages.json"
   #
-  "dest" : "/master/openspades.pot",
+  "dest" : "/master/freespades.pot",
 
   #
   # File type

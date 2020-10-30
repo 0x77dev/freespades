@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: openspades\n"
+"Project-Id-Version: freespades\n"
 "Report-Msgid-Bugs-To: i at yvt.jp\n"
 "POT-Creation-Date: 2016-12-25 23:47-0200\n"
 "PO-Revision-Date: 2020-04-19 14:46\n"
@@ -12,9 +12,9 @@ msgstr ""
 "X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Crowdin-Project: openspades\n"
+"X-Crowdin-Project: freespades\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: openspades.pot\n"
+"X-Crowdin-File: freespades.pot\n"
 "Language: fr_FR\n"
 
 #: Sources/Client/Client.cpp:585 Sources/Client/Client.cpp:586
@@ -406,18 +406,18 @@ msgstr "Système de traduction chargé"
 #: Sources/Gui/Main.cpp:604 Sources/Gui/Runner.cpp:56 Sources/Gui/Main.cpp:633
 #: Sources/Gui/Runner.cpp:56
 msgctxt "Main"
-msgid "A serious error caused OpenSpades to stop working:\n\n"
+msgid "A serious error caused FreeSpades to stop working:\n\n"
 "{0}\n\n"
 "See SystemMessages.log for more details."
-msgstr "Une erreur sérieuse a forcé OpenSpades a s’arrêter :\n\n"
+msgstr "Une erreur sérieuse a forcé FreeSpades a s’arrêter :\n\n"
 "{0}\n\n"
 "Voir SystemMessages.log pour plus de détails."
 
 #: Sources/Gui/Main.cpp:612 Sources/Gui/Runner.cpp:62 Sources/Gui/Main.cpp:641
 #: Sources/Gui/Runner.cpp:62
 msgctxt "Main"
-msgid "OpenSpades Fatal Error"
-msgstr "Erreur fatale de OpenSpades"
+msgid "FreeSpades Fatal Error"
+msgstr "Erreur fatale de FreeSpades"
 
 #: Sources/Gui/MainScreen.cpp:225 Sources/Gui/MainScreen.cpp:220
 msgctxt "MainScreen"
@@ -499,8 +499,8 @@ msgstr "Décider plus tard"
 #: Resources/Scripts/Gui/CreateProfileScreen.as:80
 #: Resources/Scripts/Gui/CreateProfileScreen.as:80
 msgctxt "CreateProfileScreen"
-msgid "Welcome to OpenSpades"
-msgstr "Bienvenue sur OpenSpades"
+msgid "Welcome to FreeSpades"
+msgstr "Bienvenue sur FreeSpades"
 
 #: Resources/Scripts/Gui/CreateProfileScreen.as:88
 #: Resources/Scripts/Gui/CreateProfileScreen.as:88
@@ -1129,8 +1129,8 @@ msgstr "Activer la fenêtre de lancement"
 #: Resources/Scripts/Gui/Preferences.as:757
 #: Resources/Scripts/Gui/Preferences.as:757
 msgctxt "Preferences"
-msgid "Quit and restart OpenSpades to access the startup window."
-msgstr "Redémarrer OpenSpades pour accéder à la fenêtre de lancement."
+msgid "Quit and restart FreeSpades to access the startup window."
+msgstr "Redémarrer FreeSpades pour accéder à la fenêtre de lancement."
 
 #: Resources/Scripts/Gui/Preferences.as:758
 #: Resources/Scripts/Gui/Preferences.as:758
@@ -1221,8 +1221,8 @@ msgstr "Mode plein écran"
 #: Resources/Scripts/Gui/StartupScreen.as:1103
 #: Resources/Scripts/Gui/StartupScreen.as:1103
 msgctxt "StartupScreen"
-msgid "By running in fullscreen mode OpenSpades occupies the screen, making it easier for you to concentrate on playing the game."
-msgstr "En utilisant le mode plein écran, OpenSpades occupe la totalité de celui-ci et vous permet de vous concentrer sur le jeu."
+msgid "By running in fullscreen mode FreeSpades occupies the screen, making it easier for you to concentrate on playing the game."
+msgstr "En utilisant le mode plein écran, FreeSpades occupe la totalité de celui-ci et vous permet de vous concentrer sur le jeu."
 
 #: Resources/Scripts/Gui/StartupScreen.as:1110
 #: Resources/Scripts/Gui/StartupScreen.as:1492
@@ -1557,8 +1557,8 @@ msgstr "YSR"
 #: Resources/Scripts/Gui/StartupScreen.as:1512
 #: Resources/Scripts/Gui/StartupScreen.as:1512
 msgctxt "StartupScreen"
-msgid "YSR is an experimental 3D HDR sound engine optimized for OpenSpades. It features several enhanced features including automatic load control, dynamics compressor, HRTF-based 3D audio, and high quality reverb."
-msgstr "YSR est un moteur de son 3D HDR expérimental optimisé pour OpenSpades. Il fournit plusieurs fonctionnalités améliorées incluant un contrôle automatique de la charge, des compresseurs dynamiques, une audio 3D basée sur des HRTF et une réverbération de haute qualité."
+msgid "YSR is an experimental 3D HDR sound engine optimized for FreeSpades. It features several enhanced features including automatic load control, dynamics compressor, HRTF-based 3D audio, and high quality reverb."
+msgstr "YSR est un moteur de son 3D HDR expérimental optimisé pour FreeSpades. Il fournit plusieurs fonctionnalités améliorées incluant un contrôle automatique de la charge, des compresseurs dynamiques, une audio 3D basée sur des HRTF et une réverbération de haute qualité."
 
 #. ! The name of audio driver that outputs no audio.
 #: Resources/Scripts/Gui/StartupScreen.as:1523
@@ -1730,8 +1730,8 @@ msgstr "La version {0} est disponible ! (Vous utilisez actuellement la version 
 #: Resources/Scripts/Gui/UpdateCheckView.as:105
 #: Resources/Scripts/Gui/UpdateCheckView.as:105
 msgctxt "UpdateCheck"
-msgid "You're using the latest version of OpenSpades. ({0})"
-msgstr "Vous utilisez la dernière version de OpenSpades. ({0})"
+msgid "You're using the latest version of FreeSpades. ({0})"
+msgstr "Vous utilisez la dernière version de FreeSpades. ({0})"
 
 #: Resources/Scripts/Gui/UpdateCheckView.as:110
 #: Resources/Scripts/Gui/UpdateCheckView.as:110

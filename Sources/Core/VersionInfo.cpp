@@ -32,7 +32,7 @@ std::string VersionInfo::GetVersionInfo() {
 		windowsVersion = "Windows 8.1";
 	} else {
 		// Default to Windows 10
-		// See https://github.com/yvt/openspades/pull/528 for reason.
+		// See https://github.com/0x77dev/freespades/pull/528 for reason.
 		windowsVersion = "Windows 10";
 	}
 

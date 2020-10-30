@@ -1,9 +1,9 @@
 {
-  "app-id": "jp.yvt.OpenSpades",
+  "app-id": "jp.yvt.FreeSpades",
   "runtime": "org.freedesktop.Platform",
   "runtime-version": "18.08",
   "sdk": "org.freedesktop.Sdk",
-  "command": "openspades",
+  "command": "freespades",
   "finish-args": [
     "--share=ipc",
     "--socket=x11",
@@ -12,7 +12,7 @@
     "--share=network",
     "--device=dri",
     "--extension=org.freedesktop.Platform.GL=directory=lib/GL",
-    "--persist=.local/share/openspades"
+    "--persist=.local/share/freespades"
   ],
   "cleanup": [
     "/include",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "name": "openspades",
+      "name": "freespades",
       "buildsystem": "cmake",
       "config-opts": [
         "-DOPENSPADES_INSTALL_BINARY=bin",
@@ -66,9 +66,9 @@
         "-DCMAKE_BUILD_TYPE=RelWithDebInfo"
       ],
       "post-install": [
-        "mv /app/share/applications/openspades.desktop /app/share/applications/jp.yvt.OpenSpades.desktop",
+        "mv /app/share/applications/freespades.desktop /app/share/applications/jp.yvt.FreeSpades.desktop",
         "mkdir -p /app/share/appdata/",
-        "install -Dm0644 jp.yvt.OpenSpades.appdata.xml /app/share/appdata/jp.yvt.OpenSpades.appdata.xml",
+        "install -Dm0644 jp.yvt.FreeSpades.appdata.xml /app/share/appdata/jp.yvt.FreeSpades.appdata.xml",
         "install -D apply_extra /app/bin/apply_extra"
       ],
       "sources": [
@@ -86,7 +86,7 @@
         },
         {
           "type": "archive",
-          "url": "https://github.com/yvt/openspades/archive/v0.1.3.tar.gz",
+          "url": "https://github.com/0x77dev/freespades/archive/v0.1.3.tar.gz",
           "sha256": "ecd7aaf568f80712d981ecdd7bf9e380221dc2c16e86d2e56a0ddda87432bea3"
         },
         {
@@ -99,12 +99,12 @@
         },
         {
           "type": "file",
-          "path": "jp.yvt.OpenSpades.appdata.xml"
+          "path": "jp.yvt.FreeSpades.appdata.xml"
         },
         {
           "type": "extra-data",
           "filename": "nonfree-paks.zip",
-          "url": "https://github.com/yvt/openspades-paks/releases/download/r33/OpenSpadesDevPackage-r33.zip",
+          "url": "https://github.com/0x77dev/freespades-paks/releases/download/r33/OpenSpadesDevPackage-r33.zip",
           "sha256": "0927dc323a0b3aba0ee8d1d68d6b544b00fe654740fead6d1faad37aac77a2ad",
           "size": 4036321
         }

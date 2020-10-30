@@ -28,7 +28,7 @@ build
 *.lib
 
 # cmake generated
-OpenSpades.h
+FreeSpades.h
 Makefile
 CMakeCache.txt
 *CMakeFiles/
@@ -62,10 +62,10 @@ UserInterfaceState.xcuserstate
 Thumbs.db
 
 # MSVC related (preferred build path)
-OpenSpades.msvc/
+FreeSpades.msvc/
 
 # Linux build path
-openspades.mk/
+freespades.mk/
 
 # fltk / fluid output leftovers
 Sources/Gui/DetailConfigWindow.txt
@@ -123,4 +123,4 @@ ipch/
 *.pdb
 *.sln
 *.vcxproj
-OpenSpades.rc
+FreeSpades.rc

@@ -1,6 +1,6 @@
 //
 //  Tracer.cpp
-//  OpenSpades
+//  FreeSpades
 //
 //  Created by Tomoaki Kawada on 8/30/13.
 //  Copyright (c) 2013 yvt.jp. All rights reserved.

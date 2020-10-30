@@ -1,20 +1,20 @@
 /*
  Copyright (c) 2019 yvt
 
- This file is part of OpenSpades.
+ This file is part of FreeSpades.
 
- OpenSpades is free software: you can redistribute it and/or modify
+ FreeSpades is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
 
- OpenSpades is distributed in the hope that it will be useful,
+ FreeSpades is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
 
  You should have received a copy of the GNU General Public License
- along with OpenSpades.  If not, see <http://www.gnu.org/licenses/>.
+ along with FreeSpades.  If not, see <http://www.gnu.org/licenses/>.
 
  */
 #include "VoxelModelLoader.h"
@@ -31,7 +31,7 @@
 
 namespace spades {
 	namespace {
-		// Copied from `ngspades`, a cancelled branch of OpenSpades
+		// Copied from `ngspades`, a cancelled branch of FreeSpades
 		Vector3 ReadVector3(const Json::Value &json, const char *name) {
 			if (json.isArray() && json.size() == 3) {
 				auto e1 = json.get((Json::UInt)0, Json::nullValue);

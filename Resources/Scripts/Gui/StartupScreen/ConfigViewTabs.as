@@ -1,20 +1,20 @@
 /*
  Copyright (c) 2013 yvt
 
- This file is part of OpenSpades.
+ This file is part of FreeSpades.
 
- OpenSpades is free software: you can redistribute it and/or modify
+ FreeSpades is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
 
- OpenSpades is distributed in the hope that it will be useful,
+ FreeSpades is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
 
  You should have received a copy of the GNU General Public License
- along with OpenSpades.  If not, see <http://www.gnu.org/licenses/>.
+ along with FreeSpades.  If not, see <http://www.gnu.org/licenses/>.
 
  */
 
@@ -73,7 +73,7 @@ namespace spades {
                 HelpHandler(
                     helpView,
                     _Tr("StartupScreen",
-                        "By running in fullscreen mode OpenSpades occupies the " "screen, making it easier for you to concentrate on playing the game."))
+                        "By running in fullscreen mode FreeSpades occupies the " "screen, making it easier for you to concentrate on playing the game."))
                     .Watch(e);
                 @e.Activated = spades::ui::EventHandler(this.OnFullscreenCheck);
                 AddChild(e);
@@ -499,7 +499,7 @@ namespace spades {
                 HelpHandler(
                     helpView,
                     _Tr("StartupScreen",
-                        "YSR is an experimental 3D HDR sound engine optimized " "for OpenSpades. It features several enhanced features including " "automatic load control, dynamics compressor, HRTF-based " "3D audio, and high quality reverb."))
+                        "YSR is an experimental 3D HDR sound engine optimized " "for FreeSpades. It features several enhanced features including " "automatic load control, dynamics compressor, HRTF-based " "3D audio, and high quality reverb."))
                     .Watch(e);
                 @e.Activated = spades::ui::EventHandler(this.OnDriverYSR);
                 AddChild(e);

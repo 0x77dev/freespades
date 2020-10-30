@@ -1,5 +1,5 @@
 
-Resourcesdir = $(datadir)/openspades/Resources
+Resourcesdir = $(datadir)/freespades/Resources
 
 SHADERS = \
 Shaders/Basic.fs \

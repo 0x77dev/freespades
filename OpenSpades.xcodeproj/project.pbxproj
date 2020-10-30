@@ -286,7 +286,7 @@
 		E8690AF01D3920C800DBC331 /* pak050-Locales.pak in Resources */ = {isa = PBXBuildFile; fileRef = E8690AEA1D3920C800DBC331 /* pak050-Locales.pak */; };
 		E8690AF11D3920C800DBC331 /* pak999-References.pak in Resources */ = {isa = PBXBuildFile; fileRef = E8690AEB1D3920C800DBC331 /* pak999-References.pak */; };
 		E8725DAD1DE33B4D003BC987 /* NoiseSampler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8725DAB1DE33B4D003BC987 /* NoiseSampler.cpp */; };
-		E874834718EACF0300C29033 /* OpenSpades.icns in Resources */ = {isa = PBXBuildFile; fileRef = E874834618EACF0300C29033 /* OpenSpades.icns */; };
+		E874834718EACF0300C29033 /* FreeSpades.icns in Resources */ = {isa = PBXBuildFile; fileRef = E874834618EACF0300C29033 /* FreeSpades.icns */; };
 		E874834918ED1BE500C29033 /* SDL2_image.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E87AB82418BB3A04006B7D73 /* SDL2_image.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		E874834A18ED1BE500C29033 /* SDL2.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E8B93AD418559EC600BD01E1 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		E88344101E03244F000C3E39 /* FontManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E883440F1E03244F000C3E39 /* FontManager.cpp */; };
@@ -399,7 +399,7 @@
 		E81CE4A7183F7F2000F22685 /* MainScreen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainScreen.cpp; sourceTree = "<group>"; };
 		E81CE4A8183F7F2000F22685 /* MainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScreen.h; sourceTree = "<group>"; };
 		E82E66B218E9A35C004DBA18 /* Client_FPSCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Client_FPSCounter.cpp; sourceTree = "<group>"; };
-		E82E66B918EA78F5004DBA18 /* OpenSpades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenSpades.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82E66B918EA78F5004DBA18 /* FreeSpades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeSpades.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82E67F318EA7EAB004DBA18 /* font-unifont.pak */ = {isa = PBXFileReference; lastKnownFileType = file; name = "font-unifont.pak"; path = "Resources/font-unifont.pak"; sourceTree = "<group>"; };
 		E82E680318EA7F60004DBA18 /* libysrspades.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libysrspades.dylib; path = lib/libysrspades.dylib; sourceTree = "<group>"; };
 		E82E680618EA9502004DBA18 /* XSpades.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = XSpades.entitlements; path = XSpades/XSpades.entitlements; sourceTree = "<group>"; };
@@ -474,7 +474,7 @@
 		E844887F17D2633C005105D0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		E844888017D2633C005105D0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		E844888117D2633C005105D0 /* version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version; sourceTree = "<group>"; };
-		E844888517D26411005105D0 /* OpenSpades.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenSpades.h; sourceTree = SOURCE_ROOT; };
+		E844888517D26411005105D0 /* FreeSpades.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FreeSpades.h; sourceTree = SOURCE_ROOT; };
 		E844888617D26699005105D0 /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
 		E844888B17D3A059005105D0 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
 		E8493DB61A7349030055731A /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
@@ -540,7 +540,7 @@
 		E86D20D12171BF9700964257 /* Disposable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Disposable.h; sourceTree = "<group>"; };
 		E8725DAB1DE33B4D003BC987 /* NoiseSampler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NoiseSampler.cpp; sourceTree = "<group>"; };
 		E8725DAC1DE33B4D003BC987 /* NoiseSampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiseSampler.h; sourceTree = "<group>"; };
-		E874834618EACF0300C29033 /* OpenSpades.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = OpenSpades.icns; path = Resources/Icons/OpenSpades.icns; sourceTree = "<group>"; };
+		E874834618EACF0300C29033 /* FreeSpades.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = FreeSpades.icns; path = Resources/Icons/FreeSpades.icns; sourceTree = "<group>"; };
 		E87AB82118BB3957006B7D73 /* SdlImageReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SdlImageReader.cpp; sourceTree = "<group>"; };
 		E87AB82418BB3A04006B7D73 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = lib/SDL2_image.framework; sourceTree = "<group>"; };
 		E88318A91790EBAA002ABE6D /* GLProgramUniform.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GLProgramUniform.cpp; sourceTree = "<group>"; };
@@ -1481,7 +1481,7 @@
 			isa = PBXGroup;
 			children = (
 				E893A3641E3E4181000654A4 /* PackageInfo.json */,
-				E874834618EACF0300C29033 /* OpenSpades.icns */,
+				E874834618EACF0300C29033 /* FreeSpades.icns */,
 				E82E680618EA9502004DBA18 /* XSpades.entitlements */,
 				E88F46571DE1AF48009E85E5 /* Built-in Paks */,
 				E8E446AB17A02EC700BE8855 /* Supporting Files */,
@@ -1496,7 +1496,7 @@
 		E8CF0386178ED9D2000683D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E82E66B918EA78F5004DBA18 /* OpenSpades.app */,
+				E82E66B918EA78F5004DBA18 /* FreeSpades.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1505,7 +1505,7 @@
 			isa = PBXGroup;
 			children = (
 				E844888B17D3A059005105D0 /* CMakeLists.txt */,
-				E844888517D26411005105D0 /* OpenSpades.h */,
+				E844888517D26411005105D0 /* FreeSpades.h */,
 				E8CF03B3178EE38C000683D4 /* Imports */,
 				E8567E541792B119009D83E0 /* Audio */,
 				E8CF03AF178EE2CD000683D4 /* Core */,
@@ -1960,9 +1960,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E82E66B818EA78F5004DBA18 /* OpenSpades */ = {
+		E82E66B818EA78F5004DBA18 /* FreeSpades */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E82E66E718EA78F5004DBA18 /* Build configuration list for PBXNativeTarget "OpenSpades" */;
+			buildConfigurationList = E82E66E718EA78F5004DBA18 /* Build configuration list for PBXNativeTarget "FreeSpades" */;
 			buildPhases = (
 				E82E66B518EA78F5004DBA18 /* Sources */,
 				E82E66B618EA78F5004DBA18 /* Frameworks */,
@@ -1974,9 +1974,9 @@
 			);
 			dependencies = (
 			);
-			name = OpenSpades;
+			name = FreeSpades;
 			productName = XSpades;
-			productReference = E82E66B918EA78F5004DBA18 /* OpenSpades.app */;
+			productReference = E82E66B918EA78F5004DBA18 /* FreeSpades.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1997,7 +1997,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E8CF0380178ED9D2000683D4 /* Build configuration list for PBXProject "OpenSpades" */;
+			buildConfigurationList = E8CF0380178ED9D2000683D4 /* Build configuration list for PBXProject "FreeSpades" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2011,7 +2011,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E82E66B818EA78F5004DBA18 /* OpenSpades */,
+				E82E66B818EA78F5004DBA18 /* FreeSpades */,
 			);
 		};
 /* End PBXProject section */
@@ -2028,7 +2028,7 @@
 				E893A3651E3E4181000654A4 /* PackageInfo.json in Resources */,
 				E8690AF01D3920C800DBC331 /* pak050-Locales.pak in Resources */,
 				E8690AF11D3920C800DBC331 /* pak999-References.pak in Resources */,
-				E874834718EACF0300C29033 /* OpenSpades.icns in Resources */,
+				E874834718EACF0300C29033 /* FreeSpades.icns in Resources */,
 				E82E680418EA7F60004DBA18 /* libysrspades.dylib in Resources */,
 				E82E67FA18EA7EAB004DBA18 /* font-unifont.pak in Resources */,
 			);
@@ -2545,7 +2545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E82E66E718EA78F5004DBA18 /* Build configuration list for PBXNativeTarget "OpenSpades" */ = {
+		E82E66E718EA78F5004DBA18 /* Build configuration list for PBXNativeTarget "FreeSpades" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E82E66E818EA78F5004DBA18 /* Debug */,
@@ -2554,7 +2554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8CF0380178ED9D2000683D4 /* Build configuration list for PBXProject "OpenSpades" */ = {
+		E8CF0380178ED9D2000683D4 /* Build configuration list for PBXProject "FreeSpades" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8CF038C178ED9D2000683D4 /* Debug */,

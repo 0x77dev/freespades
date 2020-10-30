@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: openspades\n"
+"Project-Id-Version: freespades\n"
 "Report-Msgid-Bugs-To: i at yvt.jp\n"
 "POT-Creation-Date: 2016-12-25 23:47-0200\n"
 "PO-Revision-Date: 2020-04-19 14:46\n"
@@ -12,9 +12,9 @@ msgstr ""
 "X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && (n%100>19 || n%100<11) ? 0 : (n%10>=2 && n%10<=9) && (n%100>19 || n%100<11) ? 1 : n%1!=0 ? 2: 3);\n"
-"X-Crowdin-Project: openspades\n"
+"X-Crowdin-Project: freespades\n"
 "X-Crowdin-Language: lt\n"
-"X-Crowdin-File: openspades.pot\n"
+"X-Crowdin-File: freespades.pot\n"
 "Language: lt_LT\n"
 
 #: Sources/Client/Client.cpp:585 Sources/Client/Client.cpp:586
@@ -410,17 +410,17 @@ msgstr "Vertimo Sistema Pakrauta"
 #: Sources/Gui/Main.cpp:604 Sources/Gui/Runner.cpp:56 Sources/Gui/Main.cpp:633
 #: Sources/Gui/Runner.cpp:56
 msgctxt "Main"
-msgid "A serious error caused OpenSpades to stop working:\n\n"
+msgid "A serious error caused FreeSpades to stop working:\n\n"
 "{0}\n\n"
 "See SystemMessages.log for more details."
-msgstr "Dėl rimtos klaidos OpenSpades nustojo veikti:\n\n"
+msgstr "Dėl rimtos klaidos FreeSpades nustojo veikti:\n\n"
 "{0}\n\n"
 "Žiūrėkite SystemMessages.log dėl papildomų detalių."
 
 #: Sources/Gui/Main.cpp:612 Sources/Gui/Runner.cpp:62 Sources/Gui/Main.cpp:641
 #: Sources/Gui/Runner.cpp:62
 msgctxt "Main"
-msgid "OpenSpades Fatal Error"
+msgid "FreeSpades Fatal Error"
 msgstr "Openspades Kritinė Klaida"
 
 #: Sources/Gui/MainScreen.cpp:225 Sources/Gui/MainScreen.cpp:220
@@ -503,8 +503,8 @@ msgstr "Nuspręsti vėliau"
 #: Resources/Scripts/Gui/CreateProfileScreen.as:80
 #: Resources/Scripts/Gui/CreateProfileScreen.as:80
 msgctxt "CreateProfileScreen"
-msgid "Welcome to OpenSpades"
-msgstr "Sveiki atvykę į OpenSpades"
+msgid "Welcome to FreeSpades"
+msgstr "Sveiki atvykę į FreeSpades"
 
 #: Resources/Scripts/Gui/CreateProfileScreen.as:88
 #: Resources/Scripts/Gui/CreateProfileScreen.as:88
@@ -1133,7 +1133,7 @@ msgstr "Įjungti Pradėjimo Langą"
 #: Resources/Scripts/Gui/Preferences.as:757
 #: Resources/Scripts/Gui/Preferences.as:757
 msgctxt "Preferences"
-msgid "Quit and restart OpenSpades to access the startup window."
+msgid "Quit and restart FreeSpades to access the startup window."
 msgstr "Išeikite ir pradėkite išnaujo Openspades, kad atverti Pradėjimo Langą."
 
 #: Resources/Scripts/Gui/Preferences.as:758
@@ -1225,8 +1225,8 @@ msgstr "Pilno Ekrano Rėžimas"
 #: Resources/Scripts/Gui/StartupScreen.as:1103
 #: Resources/Scripts/Gui/StartupScreen.as:1103
 msgctxt "StartupScreen"
-msgid "By running in fullscreen mode OpenSpades occupies the screen, making it easier for you to concentrate on playing the game."
-msgstr "Įjungus Pilno Ekrano rėžimą, OpenSpades užima visą ekrano erdvę, kas leidžia jums lengviau susikoncentruoti į žaidimą."
+msgid "By running in fullscreen mode FreeSpades occupies the screen, making it easier for you to concentrate on playing the game."
+msgstr "Įjungus Pilno Ekrano rėžimą, FreeSpades užima visą ekrano erdvę, kas leidžia jums lengviau susikoncentruoti į žaidimą."
 
 #: Resources/Scripts/Gui/StartupScreen.as:1110
 #: Resources/Scripts/Gui/StartupScreen.as:1492
@@ -1561,8 +1561,8 @@ msgstr "YSR"
 #: Resources/Scripts/Gui/StartupScreen.as:1512
 #: Resources/Scripts/Gui/StartupScreen.as:1512
 msgctxt "StartupScreen"
-msgid "YSR is an experimental 3D HDR sound engine optimized for OpenSpades. It features several enhanced features including automatic load control, dynamics compressor, HRTF-based 3D audio, and high quality reverb."
-msgstr "YSR yra ekspermentinis 3D HDR garso variklis, optimizuotas OpenSpades'. Jis turi kelias pagerintas funkcijas, tame tarpe: automatinę apkrovos kontrolę, dinaminį kompresorių, HRTF-pagrįstą 3D garsą, ir aukštos kokybės atgarsį."
+msgid "YSR is an experimental 3D HDR sound engine optimized for FreeSpades. It features several enhanced features including automatic load control, dynamics compressor, HRTF-based 3D audio, and high quality reverb."
+msgstr "YSR yra ekspermentinis 3D HDR garso variklis, optimizuotas FreeSpades'. Jis turi kelias pagerintas funkcijas, tame tarpe: automatinę apkrovos kontrolę, dinaminį kompresorių, HRTF-pagrįstą 3D garsą, ir aukštos kokybės atgarsį."
 
 #. ! The name of audio driver that outputs no audio.
 #: Resources/Scripts/Gui/StartupScreen.as:1523
@@ -1734,8 +1734,8 @@ msgstr "Versija {0} yra prieinama! (Jūs šiuo metu turite {1})"
 #: Resources/Scripts/Gui/UpdateCheckView.as:105
 #: Resources/Scripts/Gui/UpdateCheckView.as:105
 msgctxt "UpdateCheck"
-msgid "You're using the latest version of OpenSpades. ({0})"
-msgstr "Jūs naudojatės naujiausia OpenSpades versija. ({0})"
+msgid "You're using the latest version of FreeSpades. ({0})"
+msgstr "Jūs naudojatės naujiausia FreeSpades versija. ({0})"
 
 #: Resources/Scripts/Gui/UpdateCheckView.as:110
 #: Resources/Scripts/Gui/UpdateCheckView.as:110

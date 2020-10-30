@@ -2,20 +2,20 @@
  Copyright (c) 2013 yvt
  Portion of the code is based on Serverbrowser.cpp.
 
- This file is part of OpenSpades.
+ This file is part of FreeSpades.
 
- OpenSpades is free software: you can redistribute it and/or modify
+ FreeSpades is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
 
- OpenSpades is distributed in the hope that it will be useful,
+ FreeSpades is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
 
  You should have received a copy of the GNU General Public License
- along with OpenSpades.  If not, see <http://www.gnu.org/licenses/>.
+ along with FreeSpades.  If not, see <http://www.gnu.org/licenses/>.
 
  */
 
@@ -35,7 +35,7 @@
 #include <Audio/YsrDevice.h>
 #include <Core/FileManager.h>
 #include <Core/Settings.h>
-#include <OpenSpades.h>
+#include <FreeSpades.h>
 #include <Core/ShellApi.h>
 #include <Gui/Main.h>
 #include <Gui/Icon.h>
@@ -193,7 +193,7 @@ namespace spades {
 			}
 
 			bool capable = true;
-			SDL_Window *window = SDL_CreateWindow("OpenSpades: Please wait...", 1, 1, 1, 1,
+			SDL_Window *window = SDL_CreateWindow("FreeSpades: Please wait...", 1, 1, 1, 1,
 			                                      SDL_WINDOW_OPENGL | SDL_WINDOW_BORDERLESS);
 			if (window == nullptr) {
 				SPLog("Failed to create SDL window: %s", SDL_GetError());
@@ -626,7 +626,7 @@ namespace spades {
 				SPLog("SDL Capability Query Window finalized");
 			}
 
-			SPLog("OpenGL driver is OpenSpades capable: %s", capable ? "YES" : "NO");
+			SPLog("OpenGL driver is FreeSpades capable: %s", capable ? "YES" : "NO");
 
 			openGLCapable = capable;
 			if (!openGLCapable) {

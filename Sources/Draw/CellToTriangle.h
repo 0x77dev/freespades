@@ -4,7 +4,7 @@
  Triangulates arbitary polygons represented by cells.
  Algorithm's time complexity is roughly O(W*H).
 
- Created to fix #213 ( https://github.com/yvt/openspades/issues/213 ).
+ Created to fix #213 ( https://github.com/0x77dev/freespades/issues/213 ).
 
  See this web page for algorithm demonstration:
  https://dl.dropboxusercontent.com/u/37804131/triangulate-2.html

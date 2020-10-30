@@ -65,7 +65,7 @@ if(UNIX)
 	file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/Unix/Man)
 
 	configure_file("${CMAKE_CURRENT_SOURCE_DIR}/Unix/Debian/copyright.in" "${CMAKE_CURRENT_BINARY_DIR}/Unix/Debian/copyright")
-	configure_file("${CMAKE_CURRENT_SOURCE_DIR}/Unix/Man/openspades.6.in" "${CMAKE_CURRENT_BINARY_DIR}/Unix/Man/openspades.6")
+	configure_file("${CMAKE_CURRENT_SOURCE_DIR}/Unix/Man/freespades.6.in" "${CMAKE_CURRENT_BINARY_DIR}/Unix/Man/freespades.6")
 
 	add_custom_command(
 		TARGET OpenSpades_Unix
@@ -74,7 +74,7 @@ if(UNIX)
 	)
 	add_custom_command(
 		TARGET OpenSpades_Unix
-		COMMAND sh -c \"gzip -9 -c ${CMAKE_CURRENT_BINARY_DIR}/Unix/Man/openspades.6 > openspades.6.gz\"
+		COMMAND sh -c \"gzip -9 -c ${CMAKE_CURRENT_BINARY_DIR}/Unix/Man/freespades.6 > freespades.6.gz\"
 		WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/Unix/Man
 	)
 endif(UNIX)

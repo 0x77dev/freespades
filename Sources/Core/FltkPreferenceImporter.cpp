@@ -1,20 +1,20 @@
 /*
  Copyright (c) 2013 yvt
 
- This file is part of OpenSpades.
+ This file is part of FreeSpades.
 
- OpenSpades is free software: you can redistribute it and/or modify
+ FreeSpades is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
 
- OpenSpades is distributed in the hope that it will be useful,
+ FreeSpades is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
 
  You should have received a copy of the GNU General Public License
- along with OpenSpades.  If not, see <http://www.gnu.org/licenses/>.
+ along with FreeSpades.  If not, see <http://www.gnu.org/licenses/>.
 
  */
 
@@ -58,19 +58,19 @@ namespace spades {
 
 	static std::string GetFltkPreferencePath() {
 #if defined(WIN32)
-		std::string path = SdlReceiveString(SDL_GetPrefPath("yvt.jp", "OpenSpades.prefs"));
+		std::string path = SdlReceiveString(SDL_GetPrefPath("yvt.jp", "FreeSpades.prefs"));
 		if (path.back() == '\\')
 			path.resize(path.size() - 1);
 		return path;
 #elif defined(__APPLE__)
 		const char *homeptr = getenv("HOME");
 		std::string home = homeptr ? homeptr : "";
-		home += "/Library/Preferences/yvt.jp/OpenSpades.prefs";
+		home += "/Library/Preferences/yvt.jp/FreeSpades.prefs";
 		return home;
 #else
 		const char *homeptr = getenv("HOME");
 		std::string home = homeptr ? homeptr : "";
-		home += "/.fltk/yvt.jp/OpenSpades.prefs";
+		home += "/.fltk/yvt.jp/FreeSpades.prefs";
 		return home;
 #endif
 	}

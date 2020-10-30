@@ -1,20 +1,20 @@
 /*
  Copyright (c) 2013 yvt
 
- This file is part of OpenSpades.
+ This file is part of FreeSpades.
 
- OpenSpades is free software: you can redistribute it and/or modify
+ FreeSpades is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
  the Free Software Foundation, either version 3 of the License, or
  (at your option) any later version.
 
- OpenSpades is distributed in the hope that it will be useful,
+ FreeSpades is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  GNU General Public License for more details.
 
  You should have received a copy of the GNU General Public License
- along with OpenSpades.  If not, see <http://www.gnu.org/licenses/>.
+ along with FreeSpades.  If not, see <http://www.gnu.org/licenses/>.
 
  */
 
@@ -50,7 +50,7 @@
 #include <Gui/ConsoleScreen.h>
 #include <Gui/PackageUpdateManager.h>
 #include <Gui/StartupScreen.h>
-#include <OpenSpades.h>
+#include <FreeSpades.h>
 
 #include <Core/VoxelModel.h>
 #include <Draw/GLOptimizedVoxelModel.h>
@@ -350,7 +350,7 @@ int main(int argc, char **argv) {
 		} else {
 			if (SUCCEEDED(SHGetFolderPathW(NULL, CSIDL_APPDATA, NULL, 0, buf))) {
 				std::wstring datadir = buf;
-				datadir += L"\\OpenSpades\\Resources";
+				datadir += L"\\FreeSpades\\Resources";
 
 				spades::g_userResourceDirectory = Utf8FromWString(datadir.c_str());
 
@@ -385,7 +385,7 @@ int main(int argc, char **argv) {
 		}
 
 		spades::g_userResourceDirectory =
-		  home + "/Library/Application Support/OpenSpades/Resources";
+		  home + "/Library/Application Support/FreeSpades/Resources";
 
 		spades::FileManager::AddFileSystem(
 		  new spades::DirectoryFileSystem(spades::g_userResourceDirectory, true));
@@ -408,24 +408,24 @@ int main(int argc, char **argv) {
 
 		struct stat info;
 
-		if (stat((xdg_data_home + "/openspades").c_str(), &info) != 0) {
-			if (stat((home + "/.openspades").c_str(), &info) != 0) {
+		if (stat((xdg_data_home + "/freespades").c_str(), &info) != 0) {
+			if (stat((home + "/.freespades").c_str(), &info) != 0) {
 			} else if (info.st_mode & S_IFDIR) {
 				SPLog("Openspades directory in XDG_DATA_HOME not found, though old directory "
 				      "exists. Trying to resolve compatibility problem.");
 
-				if (rename((home + "/.openspades").c_str(),
-				           (xdg_data_home + "/openspades").c_str()) != 0) {
+				if (rename((home + "/.freespades").c_str(),
+				           (xdg_data_home + "/freespades").c_str()) != 0) {
 					SPLog("Failed to move old directory to new.");
 				} else {
 					SPLog("Successfully moved old directory.");
 
-					if (mkdir((home + "/.openspades").c_str(),
+					if (mkdir((home + "/.freespades").c_str(),
 					          S_IRWXU | S_IRWXG | S_IROTH | S_IXOTH) == 0) {
 						SDL_RWops *io = SDL_RWFromFile(
-						  (home + "/.openspades/CONTENT_MOVED_TO_NEW_DIR").c_str(), "wb");
+						  (home + "/.freespades/CONTENT_MOVED_TO_NEW_DIR").c_str(), "wb");
 						if (io != NULL) {
-							std::string text = ("Content of this directory moved to " + xdg_data_home + "/openspades");
+							std::string text = ("Content of this directory moved to " + xdg_data_home + "/freespades");
 							io->write(io, text.c_str(), text.length(), 1);
 							io->close(io);
 						}
@@ -434,7 +434,7 @@ int main(int argc, char **argv) {
 			}
 		}
 
-		spades::g_userResourceDirectory = xdg_data_home + "/openspades/Resources";
+		spades::g_userResourceDirectory = xdg_data_home + "/freespades/Resources";
 
 		spades::FileManager::AddFileSystem(
 		  new spades::DirectoryFileSystem(spades::g_userResourceDirectory, true));
@@ -448,9 +448,9 @@ int main(int argc, char **argv) {
 			SDL_InitSubSystem(SDL_INIT_VIDEO);
 			auto msg = spades::Format(
 			  "Failed to start recording log because of the following error:\n{0}\n\n"
-			  "OpenSpades will continue to run, but any critical events are not logged.",
+			  "FreeSpades will continue to run, but any critical events are not logged.",
 			  ex.what());
-			if (SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_WARNING, "OpenSpades Log System Failure",
+			if (SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_WARNING, "FreeSpades Log System Failure",
 			                             msg.c_str(), splashWindow->GetWindow())) {
 				// showing dialog failed.
 			}
@@ -635,7 +635,7 @@ int main(int argc, char **argv) {
 
 		std::string msg = ex.what();
 		msg = _Tr("Main",
-		          "A serious error caused OpenSpades to stop working:\n\n{0}\n\nSee "
+		          "A serious error caused FreeSpades to stop working:\n\n{0}\n\nSee "
 		          "SystemMessages.log for more details.",
 		          msg);
 
@@ -643,7 +643,7 @@ int main(int argc, char **argv) {
 
 		SDL_InitSubSystem(SDL_INIT_VIDEO);
 		if (SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_ERROR,
-		                             _Tr("Main", "OpenSpades Fatal Error").c_str(), msg.c_str(),
+		                             _Tr("Main", "FreeSpades Fatal Error").c_str(), msg.c_str(),
 		                             nullptr)) {
 			// showing dialog failed.
 			// TODO: do appropriate action

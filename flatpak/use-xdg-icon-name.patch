@@ -6,20 +6,20 @@ index 1e8dc9b..46d504f 100755
  for fn in tmp/*.png; do
  	RES=$( basename $fn | sed 's/.png//' )
  	mkdir -p "$OUTPUT_DIR/$RES/apps"
--	mv $fn "$OUTPUT_DIR/$RES/apps/openspades.png"
-+	mv $fn "$OUTPUT_DIR/$RES/apps/jp.yvt.OpenSpades.png"
+-	mv $fn "$OUTPUT_DIR/$RES/apps/freespades.png"
++	mv $fn "$OUTPUT_DIR/$RES/apps/jp.yvt.FreeSpades.png"
  done
  
  rm -rf tmp/
-diff --git a/Resources/Unix/Desktop/openspades.desktop b/Resources/Unix/Desktop/openspades.desktop
+diff --git a/Resources/Unix/Desktop/freespades.desktop b/Resources/Unix/Desktop/freespades.desktop
 index 985d474..2a7809c 100644
---- a/Resources/Unix/Desktop/openspades.desktop
-+++ b/Resources/Unix/Desktop/openspades.desktop
-@@ -7,6 +7,6 @@ Name=OpenSpades
+--- a/Resources/Unix/Desktop/freespades.desktop
++++ b/Resources/Unix/Desktop/freespades.desktop
+@@ -7,6 +7,6 @@ Name=FreeSpades
  GenericName=Sandbox building and FPS videogame
  Comment=Open-source clone of Ace of Spades
  Keywords=game;fps;sandbox;voxel;aos;
--Icon=openspades
-+Icon=jp.yvt.OpenSpades
+-Icon=freespades
++Icon=jp.yvt.FreeSpades
  Categories=Game;ActionGame;
 MimeType=x-scheme-handler/aos;
